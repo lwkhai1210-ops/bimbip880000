@@ -888,7 +888,7 @@ setInterval(()=>{if(mState.date!==mToday()){mCheckDay();renderMissions()}},60000
 
 // SCATTER
 const slotSymbols=['💎','⭐','🍀','🔔','7️⃣','SC'];
-// Giảm tỷ lệ SCATTER: mỗi ô có 1% cơ hội xuất hiện SC.
+// Giảm tỷ lệ SCATTER: mỗi ô có 5% cơ hội xuất hiện SC.
 function randomSlotSymbol(){
  if(Math.random()<0.01)return 'SC';
  return slotSymbols[Math.floor(Math.random()*(slotSymbols.length-1))];
